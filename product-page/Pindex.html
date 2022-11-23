@@ -9,7 +9,23 @@
     <!-- CSS -->
     <link href="style.css" rel="stylesheet">
     <meta name="robots" content="noindex,follow" />
-
+    <style>
+      table {
+        font-family: arial, sans-serif;
+        border-collapse: collapse;
+        width: 100%;
+      }
+      
+      td, th {
+        border: 1px solid #dddddd;
+        text-align: left;
+        padding: 8px;
+      }
+      
+      tr:nth-child(even) {
+        background-color: #dddddd;
+      }
+      </style>
   </head>
 
   <body>
@@ -21,6 +37,7 @@
         <img data-image="blue" src="images/blue.png" alt="">
         <img data-image="red" class="active" src="images/red.png" alt="">
       </div>
+      
 
 
       <!-- Right Column -->
@@ -82,5 +99,27 @@
     <!-- Scripts -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js" charset="utf-8"></script>
     <script src="script.js" charset="utf-8"></script>
+    <table>
+      <tr>
+        <th>Reviews</th>
+        <th>Ratings</th>
+        <th>Sells</th>
+      </tr>
+      <tr>
+        <td>No review at the moment</td>
+        <td>No rating at the moment</td>
+        <td>No sell at the moment</td>
+      </tr>
+      <tr>
+        <td>__</td>
+        <td>__</td>
+        <td>__</td>
+      </tr>
+      <tr>
+        <td>__</td>
+        <td>__</td>
+        <td>__</td>
+      </tr>
+    </table>
   </body>
 </html>
